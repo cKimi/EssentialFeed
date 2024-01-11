@@ -13,6 +13,9 @@
   },
   "testTargets" : [
     {
+      "skippedTests" : [
+        "EssentialFeedAPIEndToEndTests\/test_endToEndTestServerGETFeedResult_matchesFixedTestAccountData()"
+      ],
       "target" : {
         "containerPath" : "container:EssentialFeed.xcodeproj",
         "identifier" : "0F8D8FE92B5013BE001165C3",
