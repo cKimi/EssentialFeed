@@ -12,8 +12,6 @@ jobs:
     
     steps:
     - uses: actions/checkout@main
-      with:
-        swift-version: "5.9"
         
     - name: Select Xcode
       run: sudo xcode-select -switch /Applications/Xcode.app
