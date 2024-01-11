@@ -1,5 +1,7 @@
 # Essential App Case Study
 
+[![CI](https://github.com/cKimi/EssentialFeed/actions/workflows/CI.yml/badge.svg)](https://github.com/cKimi/EssentialFeed/actions/workflows/CI.yml)
+
 ## Image Feed Feature Specs
 
 ### Story: Customer requests to see their image feed
