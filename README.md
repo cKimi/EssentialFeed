@@ -1,5 +1,6 @@
 # Essential App Case Study
 
+[![Build Status](https://app.travis-ci.com/cKimi/EssentialFeed.svg?branch=main)](https://app.travis-ci.com/cKimi/EssentialFeed)
 
 ## Image Feed Feature Specs
 
