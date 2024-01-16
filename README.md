@@ -201,7 +201,7 @@ Given the customer doesn't have connectivity
 | `id`          | `UUID`              |
 | `description` | `String` (optional) |
 | `location`    | `String` (optional) |
-| `url`            | `URL`               |
+| `url`         | `URL`               |
 
 ### Payload contract
 
@@ -294,15 +294,15 @@ Given the customer doesn't have connectivity
 | Property          | Type                    |
 |-------------------|-------------------------|
 | `id`              | `UUID`                  |
-| `message`         | `String`                  |
+| `message`         | `String`                |
 | `created_at`      | `Date` (ISO8601 String) |
-| `author`             | `CommentAuthorObject`   |
+| `author`          | `CommentAuthorObject`   |
 
 ### Image Comment Author
 
 | Property          | Type                |
 |-------------------|---------------------|
-| `username`         | `String`              |
+| `username`        | `String`            |
 
 ### Payload contract
 
