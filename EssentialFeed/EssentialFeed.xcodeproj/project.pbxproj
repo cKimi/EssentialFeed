@@ -18,6 +18,8 @@
 		0F8F689F2B56B832005B2D6E /* RemoteFeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8F689E2B56B832005B2D6E /* RemoteFeedItem.swift */; };
 		0F8F68A12B56B8B3005B2D6E /* LocalFeedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8F68A02B56B8B3005B2D6E /* LocalFeedImage.swift */; };
 		0F8F68A32B56C261005B2D6E /* LoadFeedFromCacheUseCaseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8F68A22B56C261005B2D6E /* LoadFeedFromCacheUseCaseTests.swift */; };
+		0F9F5CEE2B5AEC3300026CA4 /* FeedCacheTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9F5CED2B5AEC3300026CA4 /* FeedCacheTestHelpers.swift */; };
+		0F9F5CF02B5AF2E300026CA4 /* SharedTestHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F9F5CEF2B5AF2E300026CA4 /* SharedTestHelpers.swift */; };
 		0FA83FBE2B5024B3009AF63C /* XCTestCase+MemoryLeakTracking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FDFFDC22B4EC6AE00641D52 /* XCTestCase+MemoryLeakTracking.swift */; };
 		0FBD61862B320BBC002154A9 /* EssentialFeed.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FBD617D2B320BBB002154A9 /* EssentialFeed.framework */; };
 		0FBD618C2B320BBC002154A9 /* EssentialFeed.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FBD61802B320BBB002154A9 /* EssentialFeed.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -61,6 +63,8 @@
 		0F8F689E2B56B832005B2D6E /* RemoteFeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedItem.swift; sourceTree = "<group>"; };
 		0F8F68A02B56B8B3005B2D6E /* LocalFeedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFeedImage.swift; sourceTree = "<group>"; };
 		0F8F68A22B56C261005B2D6E /* LoadFeedFromCacheUseCaseTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadFeedFromCacheUseCaseTests.swift; sourceTree = "<group>"; };
+		0F9F5CED2B5AEC3300026CA4 /* FeedCacheTestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCacheTestHelpers.swift; sourceTree = "<group>"; };
+		0F9F5CEF2B5AF2E300026CA4 /* SharedTestHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedTestHelpers.swift; sourceTree = "<group>"; };
 		0FA83FBF2B5025B7009AF63C /* CI.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = CI.xctestplan; sourceTree = "<group>"; };
 		0FBD617D2B320BBB002154A9 /* EssentialFeed.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EssentialFeed.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FBD61802B320BBB002154A9 /* EssentialFeed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EssentialFeed.h; sourceTree = "<group>"; };
@@ -116,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				0F4DBCF42B56C7DD000D59B4 /* FeedStoreSpy.swift */,
+				0F9F5CED2B5AEC3300026CA4 /* FeedCacheTestHelpers.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -207,6 +212,7 @@
 			isa = PBXGroup;
 			children = (
 				0FDFFDC22B4EC6AE00641D52 /* XCTestCase+MemoryLeakTracking.swift */,
+				0F9F5CEF2B5AF2E300026CA4 /* SharedTestHelpers.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -385,10 +391,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0F9F5CEE2B5AEC3300026CA4 /* FeedCacheTestHelpers.swift in Sources */,
 				0F2BBFF12B58154100D2873A /* ValidateFeedCacheUseCaseTests.swift in Sources */,
 				0FBD619B2B320F98002154A9 /* LoadFeedFromRemoteUseCaseTests.swift in Sources */,
 				0F2BF21F2B34BCBA002C326C /* URLSessionHTTPClientTests.swift in Sources */,
 				0F4DBCF52B56C7DD000D59B4 /* FeedStoreSpy.swift in Sources */,
+				0F9F5CF02B5AF2E300026CA4 /* SharedTestHelpers.swift in Sources */,
 				0FD7B8982B517FAD005C9CB0 /* CacheFeedUseCaseTests.swift in Sources */,
 				0F8F68A32B56C261005B2D6E /* LoadFeedFromCacheUseCaseTests.swift in Sources */,
 				0FDFFDC32B4EC6AE00641D52 /* XCTestCase+MemoryLeakTracking.swift in Sources */,
